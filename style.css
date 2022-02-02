@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  margin-left: 50px;
+  color: #000000;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+a:link:hover {
+  color: rgb(219, 94, 11);
+}
+ul {
+  margin-top: 20px;
+  text-align: center;
+}
+.login {
+  /* position: relative;
+left:100px; */
+  margin-left: 100px;
+}
+.jigar {
+  color: #fdb524;
+  font-size: 50px;
+  font-weight: bold;
+}
+.past_qora {
+  font-size: 50px;
+  font-weight: bold;
+  color: #182b05;
+}
+.comment {
+  font-weight: 600;
+  color: #4a4a4b;
+  margin-top: 50px;
+}
+.btn1 {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #02a056;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  margin: 20px;
+  transition: 0.5s ease-in-out;
+}
+.btn1:hover {
+  background-color: blue;
+}
+.header_menu {
+  background-image: url(5.jpg);
+  background-size: cover;
+  position: relative;
+  top: 50px;
+  padding: 50px 0px 50px 50px;
+
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.why_uz {
+  /* position: relative; */
+  margin-top: 150px;
+  margin-left: 100px;
+  font-size: 40px;
+}
+.img1 {
+  width: 100px;
+}
+.learn_now {
+  border: 1px solid rgb(255, 255, 255);
+
+  display: flex;
+  justify-content: center;
+}
+.bold {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.past_index {
+  color: gray;
+}
+.img1 {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.center {
+  text-align: center;
+  margin-left: 50px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.added {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fdb524;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.title_1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.title_1,
+.added {
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+#btn1 {
+  text-align: center;
+  position: relative;
+  left: 630px;
+  top: 50px;
+  padding: 15px 40px;
+}
+
+.item_1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.sale_of {
+  font-size: 30px;
+}
+.sale_of,
+.item_1,
+#btn3 {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.sale_1 {
+  background-color: #f5f5f5;
+  padding: 20px 50px 20px 10px;
+  /* margin-right: 800px; */
+  border-radius: 20px;
+}
+.sale_2 {
+  margin-left: 30px;
+}
+.sale_umumiy {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.best_box img {
+  width: 100px;
+  height: 100px;
+}
+.price {
+  color: green;
+  font-weight: 500;
+}
+.send_price {
+  background-color: green;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.send_price:hover {
+  background-color: blue;
+}
+.best_box {
+  background-color: #f5f5f5;
+  margin-left: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.bests {
+  display: flex;
+  justify-content: center;
+}
+.img_section img {
+  width: 900px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.img_section {
+  display: flex;
+  justify-content: center;
+}
+
+.our_store img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.product_name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.our_store {
+  display: flex;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+.title_left {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.centerb {
+  position: relative;
+  left: 600px;
+}
+
+.costum_review {
+  background-color: #fefaf2;
+}
+.title_costum {
+  font-size: 40px;
+  text-align: center;
+}
+
+.costum_box {
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 30px 500px;
+  padding: 30px 50px 30px 30px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.costum_box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.costum_box p {
+  position: relative;
+
+  left: 70px;
+  bottom: 20px;
+}
+.costum_box a {
+  position: relative;
+
+  bottom: 30px;
+  right: 25px;
+}
+footer {
+  background-color: #000000;
+  color: #fff;
+
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.news {
+  position: relative;
+  left:100px;
+  bottom:25px;
+}
+.get_us{
+  position: relative;
+  left:100px;
+font-size: 28px;
+
+
+}
+.comment_footer{
+  position: relative;
+  left:100px;
+  top:50px; 
+  font-size: 10px;
+
+}
+.the_us{
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+footer input{
+  position: relative;
+  left: 600px;
+  bottom: 100px ;
+  padding: 15px 200px 15px 10px;
+  border-radius:20px;
+}
+.btn_primary{
+position: relative;
+left: 470px;
+bottom: 100px;
+}
+.contact{
+  font-size:16px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.top, .number{
+  text-align: center;
+position: relative;
+  top: 20px;
+
+}
+
+.addres{
+  position: relative;
+  left: 250px;
+  bottom: 53px;
+}
+
+.footer_bottom{
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
